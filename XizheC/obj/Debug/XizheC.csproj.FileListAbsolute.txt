@@ -1,0 +1,176 @@
+D:\XizheSoftWare\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\XizheSoftWare\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\XizheSoftWare\XizheC\bin\Debug\XizheC.pdb
+D:\XizheSoftWare\XizheC\bin\Debug\XizheC.exe
+D:\XizheSoftWare\Debug\XizheC.pdb
+D:\XizheSoftWare\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\XizheSoftWare\XizheC\obj\Debug\XizheC.pdb
+D:\XizheSoftWare\Debug\XizheC.dll
+D:\XizheSoftWare\XizheC\obj\Debug\XizheC.dll
+D:\客制BS架构进销存管理系统131115\Debug\XizheC.dll
+D:\客制BS架构进销存管理系统131115\Debug\XizheC.pdb
+D:\客制BS架构进销存管理系统131115\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.dll
+D:\客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\WPSS客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\WPSS客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\WPSS客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115 - 副本\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115 - 副本\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115 - 副本\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\WPSS客制BS架构进销存管理系统131115 - 副本\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\WPSS客制BS架构进销存管理系统131115 - 副本\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\WPSS客制BS架构进销存管理系统131115 - 副本\XizheC\obj\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115 - 副本\XizheC\obj\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115\XizheC\obj\Debug\XizheC.csproj.ResolveComReference.cache
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\XizheC\obj\Debug\XizheC.csproj.ResolveComReference.cache
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\XizheC\obj\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷\XizheC\obj\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\Debug\XizheC.pdb
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\XizheC\obj\Debug\XizheC.csproj.ResolveComReference.cache
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\XizheC\obj\Debug\XizheC.dll
+D:\WPSS客制BS架构进销存管理系统131115_客户宜优捷_新版\XizheC\obj\Debug\XizheC.pdb
+D:\BS进销存131115_昆山客户宜优捷_新版\Debug\XizheC.dll
+D:\BS进销存131115_昆山客户宜优捷_新版\Debug\XizheC.pdb
+D:\BS进销存131115_昆山客户宜优捷_新版\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\BS进销存131115_昆山客户宜优捷_新版\XizheC\obj\Debug\XizheC.csproj.ResolveComReference.cache
+D:\BS进销存131115_昆山客户宜优捷_新版\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\BS进销存131115_昆山客户宜优捷_新版\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\BS进销存131115_昆山客户宜优捷_新版\XizheC\obj\Debug\XizheC.dll
+D:\BS进销存131115_昆山客户宜优捷_新版\XizheC\obj\Debug\XizheC.pdb
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\Debug\XizheC.dll
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\Debug\XizheC.pdb
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\XizheC\obj\Debug\ResolveAssemblyReference.cache
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\XizheC\obj\Debug\XizheC.csproj.ResolveComReference.cache
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\XizheC\obj\Debug\XizheC.dll
+D:\希哲软件作品_vs2008\BS进销存131115_客户昆山宜优捷_新版\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\XizheC\obj\Debug\XizheC.csprojResolveAssemblyReference.cache
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\XizheC\obj\Debug\XizheC.csproj.ResolveComReference.cache
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户3_BS进销存客户昆山宜优捷电子有限公司_131015\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户6_BS报价系统_昆山宜优捷电子有限公司_20140307\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户6_BS报价系统_昆山宜优捷电子有限公司_20140307\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户6_BS报价系统_昆山宜优捷电子有限公司_20140307\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件作品\客户6_BS报价系统_昆山宜优捷电子有限公司_20140307\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\苏州好用软件有限公司软件作品\客户6_BS报价系统_昆山宜优捷电子有限公司_20140307\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户6_BS报价系统_昆山宜优捷电子有限公司_20140307\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180501\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180501\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180501\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180501\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180501\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180501\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180523\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180523\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180523\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180523\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180523\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件作品\客户32_BS进销存系统软件_昆山文明达电子_20180523\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\32.客户29_BS进销存系统软件_昆山文明达电子_20180523_服务器使用费最近一次付为20180612\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件作品\32.客户29_BS进销存系统软件_昆山文明达电子_20180523_服务器使用费最近一次付为20180612\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\32.客户29_BS进销存系统软件_昆山文明达电子_20180523_服务器使用费最近一次付为20180612\XizheC\obj\Debug\XizheC.csprojResolveAssemblyReference.cache
+D:\苏州好用软件有限公司软件作品\32.客户29_BS进销存系统软件_昆山文明达电子_20180523_服务器使用费最近一次付为20180612\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件作品\32.客户29_BS进销存系统软件_昆山文明达电子_20180523_服务器使用费最近一次付为20180612\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\苏州好用软件有限公司软件作品\32.客户29_BS进销存系统软件_昆山文明达电子_20180523_服务器使用费最近一次付为20180612\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件作品\32.客户29_BS进销存系统软件_昆山文明达电子_20180523_服务器使用费最近一次付为20180612\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件作品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件作品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件作品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\苏州好用软件有限公司软件作品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件作品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.pdb
+D:\WPSS\bin\XizheC.dll
+D:\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.csproj.CoreCompileInputs.cache
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.csproj.CopyComplete
+D:\苏州好用软件有限公司软件产品\40.客户3_BS报价系统_昆山宜优捷电子有限公司_20190319__产品追溯系统\XizheC\obj\Debug\XizheC.csprojAssemblyReference.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\XizheC\obj\Debug\XizheC.csproj.GenerateResource.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\XizheC\obj\Debug\XizheC.csproj.CoreCompileInputs.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\XizheC\obj\Debug\XizheC.csproj.CopyComplete
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳PCB客户\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\XizheC\obj\Debug\XizheC.csproj.GenerateResource.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\XizheC\obj\Debug\XizheC.csproj.CoreCompileInputs.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\XizheC\obj\Debug\XizheC.csproj.CopyComplete
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路\XizheC\obj\Debug\XizheC.csprojAssemblyReference.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\WPSS\bin\XizheC.dll
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\WPSS\bin\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.GenerateResource.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.CoreCompileInputs.cache
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.CopyComplete
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.dll
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.pdb
+D:\苏州好用软件有限公司软件产品\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csprojAssemblyReference.cache
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\WPSS\bin\XizheC.dll
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\WPSS\bin\XizheC.pdb
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.AssemblyReference.cache
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.GenerateResource.cache
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.CoreCompileInputs.cache
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.CopyComplete
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.dll
+D:\d20220508\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.pdb
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\WPSS\bin\XizheC.dll
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\WPSS\bin\XizheC.pdb
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csproj.GenerateResource.cache
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.dll
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.pdb
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\44.客户38-深圳伟峰电路有限公司\XizheC\obj\Debug\XizheC.csprojResolveAssemblyReference.cache
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\WPSS\bin\XizheC.dll
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\WPSS\bin\XizheC.pdb
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.csprojResolveAssemblyReference.cache
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.dll
+D:\dpan20220820\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.pdb
+D:\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\WPSS\bin\XizheC.dll
+D:\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\WPSS\bin\XizheC.pdb
+D:\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.csprojResolveAssemblyReference.cache
+D:\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.dll
+D:\Suzhou Haoyong Software Co., Ltd_products\pcb 材料erp供用户测试版本\XizheC\obj\Debug\XizheC.pdb
+D:\SZ HY Products\pcb 材料erp供用户测试版本_epplus打印使用开始于240919\WPSS\bin\XizheC.dll
+D:\SZ HY Products\pcb 材料erp供用户测试版本_epplus打印使用开始于240919\WPSS\bin\XizheC.pdb
+D:\SZ HY Products\pcb 材料erp供用户测试版本_epplus打印使用开始于240919\XizheC\obj\Debug\XizheC.csprojResolveAssemblyReference.cache
+D:\SZ HY Products\pcb 材料erp供用户测试版本_epplus打印使用开始于240919\XizheC\obj\Debug\XizheC.Properties.Resources.resources
+D:\SZ HY Products\pcb 材料erp供用户测试版本_epplus打印使用开始于240919\XizheC\obj\Debug\XizheC.csproj.GenerateResource.Cache
+D:\SZ HY Products\pcb 材料erp供用户测试版本_epplus打印使用开始于240919\XizheC\obj\Debug\XizheC.dll
+D:\SZ HY Products\pcb 材料erp供用户测试版本_epplus打印使用开始于240919\XizheC\obj\Debug\XizheC.pdb

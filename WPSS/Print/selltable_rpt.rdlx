@@ -1,0 +1,1812 @@
+﻿<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition">
+	<PageHeader>
+		<Height>0.2cm</Height>
+		<PrintOnFirstPage>true</PrintOnFirstPage>
+		<PrintOnLastPage>true</PrintOnLastPage>
+	</PageHeader>
+	<Body>
+		<ColumnSpacing>1.5cm</ColumnSpacing>
+		<Height>28.66429cm</Height>
+		<ReportItems>
+			<Line Name="Line1">
+				<Height>0cm</Height>
+				<Style>
+					<BorderStyle>
+						<Default>Solid</Default>
+					</BorderStyle>
+				</Style>
+				<Top>5.4cm</Top>
+				<Width>19cm</Width>
+				<ZIndex>5</ZIndex>
+			</Line>
+			<Table Name="Table6">
+				<Details>
+					<TableRows>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox47">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox56">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Details>
+				<Height>0.49cm</Height>
+				<TableColumns>
+					<TableColumn>
+						<Width>16.8cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>2.2cm</Width>
+					</TableColumn>
+				</TableColumns>
+				<Top>10.6cm</Top>
+				<Width>19cm</Width>
+				<ZIndex>11</ZIndex>
+			</Table>
+			<Table Name="Table7">
+				<DataSetName>selltable</DataSetName>
+				<Header>
+					<TableRows>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox38">
+											<CanGrow>true</CanGrow>
+											<Value>合計:</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Right</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox39">
+											<CanGrow>true</CanGrow>
+											<Value>=sum(Fields!销货数量.Value*Fields!销售单价.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<Format>f</Format>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Header>
+				<Height>0.49cm</Height>
+				<Left>7.364485E-07in</Left>
+				<TableColumns>
+					<TableColumn>
+						<Width>16.8cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>2.2cm</Width>
+					</TableColumn>
+				</TableColumns>
+				<Top>11.09cm</Top>
+				<Width>19cm</Width>
+				<ZIndex>12</ZIndex>
+			</Table>
+			<Table Name="Table4">
+				<DataSetName>selltable</DataSetName>
+				<Header>
+					<TableRows>
+						<TableRow>
+							<Height>1.08cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox51">
+											<CanGrow>true</CanGrow>
+											<Value>备注</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<TextDecoration>None</TextDecoration>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.75cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox63">
+											<CanGrow>true</CanGrow>
+											<Value>1.凡是收到我司板料的各客户:请谨慎仔细检查各板料的型号/规格/大小/铜厚/品质/数量等，如有异议，请于七日内书面通知，否则，不予受理。</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Left</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Header>
+				<Footer>
+					<TableRows>
+						<TableRow>
+							<Height>0.75cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox60">
+											<CanGrow>true</CanGrow>
+											<Value>2.客户在使用本批原板料前，请严格质检，否则后果自负。客户以本批原板料生产之成品概由客户自己负责。</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Left</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.75cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox52">
+											<CanGrow>true</CanGrow>
+											<Value>3.货物付款方式按双方签订合同进行，若客户逾期未付，则按逾期之日起，每日按合同总金额加收1%滞纳金。</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Left</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.75cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox12">
+											<CanGrow>true</CanGrow>
+											<Value>4.本附带条款经双方确认签章后，同意与契约具备同等效力。</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Left</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.75cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox46">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.75cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox48">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Footer>
+				<Height>5.58cm</Height>
+				<TableColumns>
+					<TableColumn>
+						<Width>19cm</Width>
+					</TableColumn>
+				</TableColumns>
+				<Top>13.4cm</Top>
+				<Width>19cm</Width>
+				<ZIndex>9</ZIndex>
+			</Table>
+			<Textbox Name="TextBox49">
+				<CanGrow>true</CanGrow>
+				<DataElementName>TextBox11</DataElementName>
+				<Height>1.28cm</Height>
+				<Left>0.2cm</Left>
+				<Value />
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>28pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+					<TextAlign>Center</TextAlign>
+				</Style>
+				<Top>0.6cm</Top>
+				<Width>18.6cm</Width>
+				<ZIndex>4</ZIndex>
+			</Textbox>
+			<Textbox Name="TextBox53">
+				<CanGrow>true</CanGrow>
+				<DataElementName>TextBox11</DataElementName>
+				<Height>0.94cm</Height>
+				<Value>送货单</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>18pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+					<TextAlign>Center</TextAlign>
+				</Style>
+				<Top>4.2cm</Top>
+				<Width>19cm</Width>
+				<ZIndex>4</ZIndex>
+			</Textbox>
+			<Textbox Name="TextBox57">
+				<CanGrow>true</CanGrow>
+				<DataElementName>TextBox11</DataElementName>
+				<Height>0.54cm</Height>
+				<Left>0.2cm</Left>
+				<Value>公司地址：</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>10pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+					<TextAlign>Right</TextAlign>
+				</Style>
+				<Top>2cm</Top>
+				<Width>2.6cm</Width>
+				<ZIndex>4</ZIndex>
+			</Textbox>
+			<Table Name="Table3">
+				<DataSetName>selltable</DataSetName>
+				<Header>
+					<TableRows>
+						<TableRow>
+							<Height>0.483122cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox40">
+											<CanGrow>true</CanGrow>
+											<Value>销貨人:</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox43">
+											<CanGrow>true</CanGrow>
+											<Value>客戶:</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox50">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>700</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.483122cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox54">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox55">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox1">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Header>
+				<Height>0.966244cm</Height>
+				<TableColumns>
+					<TableColumn>
+						<Width>6.267001cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>6.267001cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>6.4cm</Width>
+					</TableColumn>
+				</TableColumns>
+				<Top>12.2cm</Top>
+				<Width>18.934cm</Width>
+				<ZIndex>8</ZIndex>
+			</Table>
+			<Table Name="Table1">
+				<DataSetName>selltable</DataSetName>
+				<Header>
+					<TableRows>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox2">
+											<CanGrow>true</CanGrow>
+											<Value>客户名称  </Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox13">
+											<CanGrow>true</CanGrow>
+											<Value>=First(Fields!客户名称.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox3">
+											<CanGrow>true</CanGrow>
+											<Value>销货单号 </Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox4">
+											<CanGrow>true</CanGrow>
+											<Value>=First(Fields!销货单号.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Header>
+				<Footer>
+					<TableRows>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox8">
+											<CanGrow>true</CanGrow>
+											<Value>送货地址  </Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox15">
+											<CanGrow>true</CanGrow>
+											<Value>=First(Fields!送货地址.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox9">
+											<CanGrow>true</CanGrow>
+											<Value>收货人</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox10">
+											<CanGrow>true</CanGrow>
+											<Value>=First(Fields!联系人.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox5">
+											<CanGrow>true</CanGrow>
+											<Value>联系电话 </Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox6">
+											<CanGrow>true</CanGrow>
+											<Value>=First(Fields!联系电话.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox7">
+											<CanGrow>true</CanGrow>
+											<DataElementName>TextBox18</DataElementName>
+											<Value>销货日期</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox14">
+											<CanGrow>true</CanGrow>
+											<DataElementName>TextBox19</DataElementName>
+											<Value>=First(Fields!销货日期.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox16">
+											<CanGrow>true</CanGrow>
+											<Value>订单编号</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox17">
+											<CanGrow>true</CanGrow>
+											<Value>=First(Fields!客户订单号.Value)</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox18">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox19">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox20">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox21">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox22">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox23">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox24">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox25">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox26">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox27">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+						<TableRow>
+							<Height>0.49cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox28">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox29">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox30">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox31">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Footer>
+				<Height>3.43cm</Height>
+				<Left>0.2cm</Left>
+				<TableColumns>
+					<TableColumn>
+						<Width>2.6cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>4.8cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>3cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>6cm</Width>
+					</TableColumn>
+				</TableColumns>
+				<Top>6cm</Top>
+				<Width>16.4cm</Width>
+				<ZIndex>1</ZIndex>
+			</Table>
+			<Table Name="Table2">
+				<DataSetName>selltable</DataSetName>
+				<Header>
+					<TableRows>
+						<TableRow>
+							<Height>0.494383cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox32">
+											<CanGrow>true</CanGrow>
+											<Value>品名</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox33">
+											<CanGrow>true</CanGrow>
+											<Value>板厚</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox58">
+											<CanGrow>true</CanGrow>
+											<Value>铜厚</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox61">
+											<CanGrow>true</CanGrow>
+											<Value>规格</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox34">
+											<CanGrow>true</CanGrow>
+											<Value>数量</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox64">
+											<CanGrow>true</CanGrow>
+											<Value>单位</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox41">
+											<CanGrow>true</CanGrow>
+											<Value>单价</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox66">
+											<CanGrow>true</CanGrow>
+											<Value>批号</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox68">
+											<CanGrow>true</CanGrow>
+											<Value>备注</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox44">
+											<CanGrow>true</CanGrow>
+											<Value>金额</Value>
+											<Style>
+												<FontFamily>仿宋</FontFamily>
+												<FontSize>12pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Header>
+				<Details>
+					<TableRows>
+						<TableRow>
+							<Height>0.485617cm</Height>
+							<TableCells>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox35">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!品名.Value</Value>
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox36">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!PLANK_THICKNESS.Value</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox59">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!SPEC.Value</Value>
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox62">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!客户料号.Value</Value>
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox37">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!销货数量.Value</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Right</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox65">
+											<CanGrow>true</CanGrow>
+											<Value />
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox42">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!销售单价.Value</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Right</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox67">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!批号.Value</Value>
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox69">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!备注.Value</Value>
+											<Style>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+								<TableCell>
+									<ReportItems>
+										<Textbox Name="TextBox45">
+											<CanGrow>true</CanGrow>
+											<Value>=Fields!销货数量.Value*Fields!销售单价.Value</Value>
+											<Style>
+												<FontFamily>Arial</FontFamily>
+												<FontSize>9pt</FontSize>
+												<FontStyle>Normal</FontStyle>
+												<FontWeight>400</FontWeight>
+												<Format>f</Format>
+												<PaddingBottom>2pt</PaddingBottom>
+												<PaddingLeft>2pt</PaddingLeft>
+												<PaddingRight>2pt</PaddingRight>
+												<PaddingTop>2pt</PaddingTop>
+												<TextAlign>Center</TextAlign>
+												<BorderStyle>
+													<Default>Solid</Default>
+												</BorderStyle>
+											</Style>
+										</Textbox>
+									</ReportItems>
+								</TableCell>
+							</TableCells>
+						</TableRow>
+					</TableRows>
+				</Details>
+				<Height>0.98cm</Height>
+				<TableColumns>
+					<TableColumn>
+						<Width>4.4cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>1.1cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>2.6cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>2.2cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>1.1cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>1.1cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>2.2cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>1.1cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>1cm</Width>
+					</TableColumn>
+					<TableColumn>
+						<Width>2.2cm</Width>
+					</TableColumn>
+				</TableColumns>
+				<Top>9.6cm</Top>
+				<Width>19cm</Width>
+				<ZIndex>6</ZIndex>
+			</Table>
+			<Textbox Name="TextBox11">
+				<CanGrow>true</CanGrow>
+				<Height>1.2cm</Height>
+				<Left>0.2cm</Left>
+				<Value>=First(Fields!公司名称.Value)</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>28pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+					<TextAlign>Center</TextAlign>
+				</Style>
+				<Top>0.2cm</Top>
+				<Width>18.4cm</Width>
+				<ZIndex>13</ZIndex>
+			</Textbox>
+			<Textbox Name="TextBox70">
+				<CanGrow>true</CanGrow>
+				<DataElementName>TextBox11</DataElementName>
+				<Height>0.54cm</Height>
+				<Left>0.2cm</Left>
+				<Value>传真：</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>10pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+					<TextAlign>Right</TextAlign>
+				</Style>
+				<Top>3.2cm</Top>
+				<Width>2.6cm</Width>
+				<ZIndex>4</ZIndex>
+			</Textbox>
+			<Textbox Name="TextBox71">
+				<CanGrow>true</CanGrow>
+				<DataElementName>TextBox11</DataElementName>
+				<Height>0.54cm</Height>
+				<Left>0.2cm</Left>
+				<Value>电话：</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>10pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+					<TextAlign>Right</TextAlign>
+				</Style>
+				<Top>2.6cm</Top>
+				<Width>2.6cm</Width>
+				<ZIndex>4</ZIndex>
+			</Textbox>
+			<Textbox Name="TextBox72">
+				<CanGrow>true</CanGrow>
+				<Height>0.54cm</Height>
+				<Left>3cm</Left>
+				<Value>=First(Fields!公司地址.Value)</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>10pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+				</Style>
+				<Top>2cm</Top>
+				<Width>14.8cm</Width>
+				<ZIndex>14</ZIndex>
+			</Textbox>
+			<Textbox Name="TextBox73">
+				<CanGrow>true</CanGrow>
+				<Height>0.54cm</Height>
+				<Left>3.2cm</Left>
+				<Value>=First(Fields!公司电话.Value)</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>10pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+				</Style>
+				<Top>2.6cm</Top>
+				<Width>14.8cm</Width>
+				<ZIndex>15</ZIndex>
+			</Textbox>
+			<Textbox Name="TextBox74">
+				<CanGrow>true</CanGrow>
+				<Height>0.54cm</Height>
+				<Left>3.2cm</Left>
+				<Value>=First(Fields!公司传真.Value)</Value>
+				<Style>
+					<FontFamily>仿宋</FontFamily>
+					<FontSize>10pt</FontSize>
+					<FontStyle>Normal</FontStyle>
+					<FontWeight>400</FontWeight>
+					<PaddingBottom>2pt</PaddingBottom>
+					<PaddingLeft>2pt</PaddingLeft>
+					<PaddingRight>2pt</PaddingRight>
+					<PaddingTop>2pt</PaddingTop>
+				</Style>
+				<Top>3.2cm</Top>
+				<Width>14.8cm</Width>
+				<ZIndex>16</ZIndex>
+			</Textbox>
+		</ReportItems>
+	</Body>
+	<PageFooter>
+		<Height>0.75cm</Height>
+		<PrintOnFirstPage>true</PrintOnFirstPage>
+		<PrintOnLastPage>true</PrintOnLastPage>
+	</PageFooter>
+	<BottomMargin>1.5cm</BottomMargin>
+	<LeftMargin>1cm</LeftMargin>
+	<PageHeight>29.7cm</PageHeight>
+	<PageWidth>21cm</PageWidth>
+	<RightMargin>1cm</RightMargin>
+	<TopMargin>1.5cm</TopMargin>
+	<Width>9.448819in</Width>
+	<ReportParameters>
+		<ReportParameter Name="SEID">
+			<DataType>String</DataType>
+			<Prompt>SEID</Prompt>
+		</ReportParameter>
+	</ReportParameters>
+	<EmbeddedImages>
+		<EmbeddedImage Name="1">
+			<ImageData>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</ImageData>
+			<MIMEType>image/png</MIMEType>
+		</EmbeddedImage>
+	</EmbeddedImages>
+	<DataSources>
+		<DataSource Name="DataSource1">
+			<ConnectionProperties>
+				<ConnectString>initial catalog=WPSS_TEST240326;persist security info=True;user id=xizhe_software;data source=oyxxi.com;password=EXfy4gFkjplo2b73;</ConnectString>
+				<DataProvider>SQL</DataProvider>
+			</ConnectionProperties>
+			<Transaction>true</Transaction>
+		</DataSource>
+	</DataSources>
+	<DataSets>
+		<DataSet Name="selltable">
+			<Fields>
+				<Field Name="销货单号">
+					<DataField>销货单号</DataField>
+				</Field>
+				<Field Name="项次">
+					<DataField>项次</DataField>
+				</Field>
+				<Field Name="料号">
+					<DataField>料号</DataField>
+				</Field>
+				<Field Name="品名">
+					<DataField>品名</DataField>
+				</Field>
+				<Field Name="PLANK_THICKNESS">
+					<DataField>PLANK_THICKNESS</DataField>
+				</Field>
+				<Field Name="SPEC">
+					<DataField>SPEC</DataField>
+				</Field>
+				<Field Name="客户料号">
+					<DataField>客户料号</DataField>
+				</Field>
+				<Field Name="销货数量">
+					<DataField>销货数量</DataField>
+				</Field>
+				<Field Name="FREE数量">
+					<DataField>FREE数量</DataField>
+				</Field>
+				<Field Name="销售单价">
+					<DataField>销售单价</DataField>
+				</Field>
+				<Field Name="客户名称">
+					<DataField>客户名称</DataField>
+				</Field>
+				<Field Name="联系人">
+					<DataField>联系人</DataField>
+				</Field>
+				<Field Name="联系电话">
+					<DataField>联系电话</DataField>
+				</Field>
+				<Field Name="送货地址">
+					<DataField>送货地址</DataField>
+				</Field>
+				<Field Name="销货日期">
+					<DataField>销货日期</DataField>
+				</Field>
+				<Field Name="客户订单号">
+					<DataField>客户订单号</DataField>
+				</Field>
+				<Field Name="备注">
+					<DataField>备注</DataField>
+				</Field>
+				<Field Name="批号">
+					<DataField>批号</DataField>
+				</Field>
+				<Field Name="公司名称">
+					<DataField>公司名称</DataField>
+				</Field>
+				<Field Name="公司地址">
+					<DataField>公司地址</DataField>
+				</Field>
+				<Field Name="公司电话">
+					<DataField>公司电话</DataField>
+				</Field>
+				<Field Name="公司联系人">
+					<DataField>公司联系人</DataField>
+				</Field>
+				<Field Name="公司邮箱">
+					<DataField>公司邮箱</DataField>
+				</Field>
+				<Field Name="公司传真">
+					<DataField>公司传真</DataField>
+				</Field>
+			</Fields>
+			<Query>
+				<CommandText>SELECT A.SEID AS 销货单号, 
+A.SN as 项次,
+B.CO_WAREID AS 料号,
+B.WNAME AS 品名,
+B.PLANK_THICKNESS,
+B.SPEC,
+B.CWAREID AS 客户料号,
+CAST(ROUND(SUM(E.MRCount),2) AS DECIMAL(18,2)) as 销货数量 ,
+CAST(ROUND(SUM(E.FREECount),2) AS DECIMAL(18,2)) as FREE数量 ,
+C.SELLUNITPRICE AS 销售单价,
+D.CName as 客户名称 ,
+G.CONTACT AS 联系人,
+G.PHONE AS 联系电话,
+G.ADDRESS AS 送货地址,
+F.SELLDATE AS 销货日期,
+H.CustomerORID AS 客户订单号,
+A.REMARK AS 备注,
+E.BatchID AS 批号
+ ,(SELECT TOP 1 COName  FROM CompanyInfo_MST A LEFT JOIN CompanyInfo_DET B ON A.COKEY=B.COKEY WHERE A.IF_DEFAULT =1) AS  公司名称
+ ,(SELECT TOP 1 Address   FROM CompanyInfo_MST A LEFT JOIN CompanyInfo_DET B ON A.COKEY=B.COKEY WHERE A.IF_DEFAULT =1) as 公司地址
+ ,(SELECT TOP 1 Phone   FROM CompanyInfo_MST A LEFT JOIN CompanyInfo_DET B ON A.COKEY=B.COKEY WHERE A.IF_DEFAULT =1) as 公司电话
+ ,(SELECT TOP 1 Contact   FROM CompanyInfo_MST A LEFT JOIN CompanyInfo_DET B ON A.COKEY=B.COKEY WHERE A.IF_DEFAULT =1) as 公司联系人
+ ,(SELECT TOP 1 Email   FROM CompanyInfo_MST A LEFT JOIN CompanyInfo_DET B ON A.COKEY=B.COKEY WHERE A.IF_DEFAULT =1) as 公司邮箱
+ ,(SELECT TOP 1 fax   FROM CompanyInfo_MST A LEFT JOIN CompanyInfo_DET B ON A.COKEY=B.COKEY WHERE A.IF_DEFAULT =1) as 公司传真
+from SELLTABLE_DET A 
+LEFT JOIN ORDER_DET C ON A.ORID=C.ORID AND A.SN=C.SN
+LEFT JOIN CUSTOMERINFO_MST D ON C.CUID=D.CUID
+LEFT JOIN MATERE E ON A.SEKEY=E.MRKEY
+LEFT JOIN WAREINFO B ON E.WAREID=B.WAREID
+LEFT JOIN SELLTABLE_MST F ON A.SEID=F.SEID
+LEFT JOIN CUSTOMERINFO_DET G ON F.CUKEY=G.CUKEY
+LEFT JOIN Order_MST H ON C.ORID =H.ORID   WHERE  A.SEID=@SEID  GROUP BY A.SEID,
+A.SN,
+B.CO_WAREID,
+B.WNAME,
+B.PLANK_THICKNESS,
+B.SPEC,
+B.CWAREID,
+C.SELLUNITPRICE,
+D.CNAME,
+G.CONTACT,
+G.PHONE,
+G.ADDRESS,
+F.SELLDATE,
+H.CustomerORID,
+A.REMARK,
+E.BATCHID 
+ORDER BY A.SEID,A.SN ASC</CommandText>
+				<DataSourceName>DataSource1</DataSourceName>
+				<QueryParameters>
+					<QueryParameter Name="SEID">
+						<Value>=Parameters!SEID.Value</Value>
+					</QueryParameter>
+				</QueryParameters>
+			</Query>
+		</DataSet>
+	</DataSets>
+</Report>
