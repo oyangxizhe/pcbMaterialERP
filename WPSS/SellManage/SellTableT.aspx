@@ -451,7 +451,7 @@
 
                }
            }
-           function myShowModalDialog(url, args, width, height) {
+           /*function myShowModalDialog_old(url, args, width, height) {
                var tempReturnValue;
                if (navigator.userAgent.indexOf("Chrome") > 0) {
                    var paramsChrome = 'height=' + height + ', width=' + width + ', top=' + (((window.screen.height - height) / 2) - 50) +
@@ -464,26 +464,65 @@
                    tempReturnValue = window.showModalDialog(url, args, params);
                }
                return tempReturnValue;
+           }*/
+           function myShowModalDialog(url, args, width, height, callback) {
+               if (navigator.userAgent.indexOf("Chrome") > 0) {
+                   // Chrome/Edge 使用 window.open
+                   var params = 'height=' + height + ', width=' + width +
+                       ', top=' + (((window.screen.height - height) / 2) - 50) +
+                       ', left=' + ((window.screen.width - width) / 2) +
+                       ', toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no';
+                   var childWindow = window.open(url, "newwindow", params);
+
+                   // 为这次调用注册一个独立的消息监听器
+                   function messageHandler(event) {
+                       // 可选：验证消息来源
+                       // if (event.origin !== window.location.origin) return;
+
+                       var data = event.data;
+                       console.log('收到子窗口数据:', data);
+
+                       // 执行对应的回调函数
+                       if (typeof callback === 'function') {
+                           callback(data);
+                       }
+
+                       // 移除监听器，避免重复处理
+                       window.removeEventListener('message', messageHandler);
+                   }
+
+                   window.addEventListener('message', messageHandler);
+
+                   return null; // window.open 没有同步返回值
+               } else {
+                   // IE 继续使用 showModalDialog
+                   var params = 'dialogWidth:' + width + 'px;dialogHeight:' + height + 'px;status:no;dialogLeft:' +
+                       ((window.screen.width - width) / 2) + 'px;dialogTop:' +
+                       (((window.screen.height - height) / 2) - 50) + 'px;';
+                   var result = window.showModalDialog(url, args, params);
+
+                   // IE 模式下直接执行回调
+                   if (typeof callback === 'function') {
+                       callback(result);
+                   }
+                   return result;
+               }
            }
+
+           // 调用方式不变
+           var url = "../SellManage/order.aspx?cuid=" + document.getElementById("cuid").value +
+               "&emid=" + document.getElementById("jemid").value + "&come=se";
+           //var dlgResult = myShowModalDialog(url, window, 980, 500);
+           // 注意：Chrome 下 dlgResult 为 null，结果会通过回调函数处理
            function f13100202(obj, obj1) {
                var dlgResult;
                if (obj == "Text2") {
-
                    var url = "../SellManage/order.aspx?cuid=" + document.getElementById("cuid").value + "&emid=" + document.getElementById("jemid").value + "&come=se";
-                   var dlgResult = myShowModalDialog(url, window, 980, 500);
-                   if (navigator.userAgent.indexOf("Chrome") > 0) {
+                   myShowModalDialog(url, window, 980, 500, function (data) {
 
-                   }
-                   else {
-                       if (dlgResult != undefined) {
-                           document.getElementById("Text2").value = dlgResult[0];
-                       }
-                      
-                       /*document.getElementById("Text5").value = dlgResult[1];
-                       document.getElementById("Text6").value = dlgResult[2];
-                       document.getElementById("Text10").value = dlgResult[3];
-                       document.getElementById("Text11").value = dlgResult[4];*/
-                   }
+                       document.getElementById("Text2").value = data;
+
+                   });
                }
                else if (obj == "TextBox10") {
 

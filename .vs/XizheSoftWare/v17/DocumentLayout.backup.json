@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|d:\\sz hy products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbmaterialerp\\wpss\\sellmanage\\selltablet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|solutionrelative:wpss\\sellmanage\\selltablet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|d:\\sz hy products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbmaterialerp\\wpss\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|solutionrelative:wpss\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|d:\\sz hy products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbmaterialerp\\wpss\\sellmanage\\order.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|solutionrelative:wpss\\sellmanage\\order.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|d:\\sz hy products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbmaterialerp\\wpss\\purchasemanage\\purchasegodet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|solutionrelative:wpss\\purchasemanage\\purchasegodet.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|d:\\sz hy products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbmaterialerp\\wpss\\purchasemanage\\purchase.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|solutionrelative:wpss\\purchasemanage\\purchase.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|d:\\sz hy products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbmaterialerp\\wpss\\purchasemanage\\purchase.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}|WPSS\\WPSS.csproj|solutionrelative:wpss\\purchasemanage\\purchase.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SellTableT.aspx",
+              "DocumentMoniker": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\SellManage\\SellTableT.aspx",
+              "RelativeDocumentMoniker": "WPSS\\SellManage\\SellTableT.aspx",
+              "ToolTip": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\SellManage\\SellTableT.aspx*",
+              "RelativeToolTip": "WPSS\\SellManage\\SellTableT.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-20T09:29:26.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.aspx",
+              "DocumentMoniker": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\SellManage\\Order.aspx",
+              "RelativeDocumentMoniker": "WPSS\\SellManage\\Order.aspx",
+              "ToolTip": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\SellManage\\Order.aspx",
+              "RelativeToolTip": "WPSS\\SellManage\\Order.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-20T08:57:01.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Purchase.aspx.cs",
+              "DocumentMoniker": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\PurchaseManage\\Purchase.aspx.cs",
+              "RelativeDocumentMoniker": "WPSS\\PurchaseManage\\Purchase.aspx.cs",
+              "ToolTip": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\PurchaseManage\\Purchase.aspx.cs",
+              "RelativeToolTip": "WPSS\\PurchaseManage\\Purchase.aspx.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAhwE0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-20T08:44:29.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Purchase.aspx",
+              "DocumentMoniker": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\PurchaseManage\\Purchase.aspx",
+              "RelativeDocumentMoniker": "WPSS\\PurchaseManage\\Purchase.aspx",
+              "ToolTip": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\PurchaseManage\\Purchase.aspx",
+              "RelativeToolTip": "WPSS\\PurchaseManage\\Purchase.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-20T08:28:30.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PurchaseGodeT.aspx",
+              "DocumentMoniker": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\PurchaseManage\\PurchaseGodeT.aspx",
+              "RelativeDocumentMoniker": "WPSS\\PurchaseManage\\PurchaseGodeT.aspx",
+              "ToolTip": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\PurchaseManage\\PurchaseGodeT.aspx",
+              "RelativeToolTip": "WPSS\\PurchaseManage\\PurchaseGodeT.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-06-20T08:23:44.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\web.config",
+              "RelativeDocumentMoniker": "WPSS\\web.config",
+              "ToolTip": "D:\\SZ HY Products\\pcb \u6750\u6599erp\u4F9B\u7528\u6237\u6D4B\u8BD5\u7248\u672C_epplus\u6253\u5370\u4F7F\u7528\u5F00\u59CB\u4E8E240919\\pcbMaterialERP\\WPSS\\web.config",
+              "RelativeToolTip": "WPSS\\web.config",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-06-20T08:13:52.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

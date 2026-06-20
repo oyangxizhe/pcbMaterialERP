@@ -73,16 +73,16 @@ LEFT JOIN CustomerInfo_MST E ON D.CUID =E.CUID
                     {
                         Title = "Xizhe ERP";
                         SUID = "";
-                        /*try
+                        try
                         {
-                            if (Request.QueryString["come"].ToString()!= null)
+                            if (Request.QueryString["come"]!= null)
                             {
                                 come.Value = Request.QueryString["come"].ToString();
                             }
                         }
                         catch (Exception)
                         {
-                        }*/
+                        }
                         if (IsPostBack)
                         {
                             //StartDate.Value = DateTime.Now.AddDays(-7).ToString("yyyy-MM-dd").Replace("/", "-");

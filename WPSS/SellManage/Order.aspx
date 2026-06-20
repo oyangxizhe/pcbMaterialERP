@@ -345,24 +345,42 @@ background-color :#f7f7f7;
     }
     function sure() {
         var str = "";
-        var arr = new Array();
         var table = document.getElementById('<%=GridView1.ClientID%>');
-            var tr = table.rows;
-            //alert(tr.length);
-        for (i = 1; i <= tr.length - 1; i++) {
-            if (table.rows(i).cells(3) != null) {
-            var v1 = tr[i].getElementsByTagName("td")[0].getElementsByTagName("input")[0];
-            if (v1.checked) {
-                var value = table.rows(i).cells(3).innerText;
-                str += value + "-" + table.rows(i).cells(4).innerText + ",";
-                }
-            }
-        }
-        arr[0] = str.substr(0, str.length - 1);
-        //alert(arr);
-        window.returnValue = arr;
-        window.close();
-        }
+       var tr = table.rows;
+
+       for (var i = 1; i < tr.length; i++) {
+           var row = tr[i];
+           var cells = row.cells;
+
+           // 获取复选框（第一列中的 input）
+           var inputs = cells[0].getElementsByTagName("input");
+           if (inputs.length > 0 && inputs[0].checked) {
+               var value = cells[3].innerText || cells[3].textContent;
+               str += value + "-" + cells[4].innerText + ",";
+           }
+       }
+
+       if (str.length > 0) {
+           str = str.substr(0, str.length - 1); // 去掉末尾逗号
+       }
+
+       // 【关键】判断父窗口类型，用不同方式返回数据
+       if (window.opener) {
+           // 父窗口是用 window.open 打开的（Chrome/Edge）
+           // 使用 postMessage 发送数据给父窗口
+           if (window.opener) {
+               window.opener.postMessage(str, '*');  // '*' 表示不限制来源，生产环境建议指定具体域名
+           }
+           // 关闭子窗口
+           window.close();
+       } else {
+           // 父窗口是用 showModalDialog 打开的（IE）
+           var arr = new Array();
+           arr[0] = str;
+           window.returnValue = arr;
+           window.close();
+       }
+   }
     function f13100302(obj, obj1, obj2, obj3, obj4) {
         var arr1 = new Array();
         arr1[0] = obj  + "-" + obj1;

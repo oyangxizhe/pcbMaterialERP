@@ -296,10 +296,11 @@
         var arr1 = new Array();
         arr1[0] = obj;
         arr1[1] = obj1;
-
+        //alert(1+","+obj + "," + obj1)
         if (navigator.userAgent.indexOf("Chrome") > 0) {
-
+            //alert("google" + "," + obj + "," + obj1 + "," + document.getElementById("come").value)
             if (document.getElementById("come").value == "pg") {
+                //alert(obj+","+obj1)
                 window.opener.document.getElementById("Text2").value = obj;
                 window.opener.document.getElementById("Text5").value = obj1;
             }
@@ -312,6 +313,7 @@
         }
 
         else {
+            alert("ie" + "," + obj + "," + obj1 + "," + document.getElementById("come").value)
             if (window.opener != undefined) {
                 //for chrome
                 window.opener.returnValue = arr1;
@@ -321,6 +323,7 @@
             }
             window.close();
         }
+     
     }
 
     function myShowModalDialog(url, args, width, height) {

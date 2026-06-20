@@ -359,6 +359,7 @@
           }
           function f13100202(obj, obj1) {
               var dlgResult;
+              //alert(obj + "," + obj1)
               if (obj == "Text2") {
 
              
@@ -371,7 +372,7 @@
 
                       }
                       else {
-
+                          alert(dlgResult[0] + "," + dlgResult[1])
                           document.getElementById("Text2").value = dlgResult[0];
                           document.getElementById("Text5").value = dlgResult[1];
                       }
